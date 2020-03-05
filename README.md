@@ -1,8 +1,7 @@
-# mock-swagger
 
 swagger-mock-api
 
-## project proxy url (http://115.29.240.233:8888)
+## project proxy url (http://115.29.240.233:8080)
 
 ```
 ai直播:/live-api-todo
