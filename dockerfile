@@ -8,7 +8,7 @@ RUN \
   && echo "${TIME_ZONE}" > /etc/timezone \ 
   && ln -sf /usr/share/zoneinfo/${TIME_ZONE} /etc/localtime 
 
-WORKDIR /usr/src/app  
+WORKDIR /usr/src/app
 
 COPY package.json /usr/src/app/
 
@@ -18,4 +18,7 @@ RUN npm i
 
 COPY . /usr/src/app
 
-EXPOSE 8080 ## need notice port consistency
+## need notice port consistency
+EXPOSE 8080 
+
+CMD npm run start

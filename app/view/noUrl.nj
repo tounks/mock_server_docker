@@ -1,0 +1,7 @@
+<p>找不到对应的swagger api 确认代理请求头正确</p>
+<table>
+<tr><td>项目名称</td><td>代理请求头</td><td>当前url</td></tr>
+{% for key, pro in project %}
+  <tr><td>{{pro.name}}</td><td>{{key}}</td><td>{{pro.url}}</td></tr>
+{% endfor %}
+</table>
