@@ -10,15 +10,15 @@ class SwaggerController extends Controller {
     const project = {
       '/live-api-todo': {
         name: 'ai直播',
-        url: 'http://swagger.zhiyitech.cn/live/v2/api-docs',
+        url: 'http://swagger.zhiyitech.cn/***/v2/api-docs',
       },
       '/api-todo': {
         name: 'ai数据',
-        url: 'http://swagger.zhiyitech.cn/dataline/v2/api-docs',
+        url: 'http://swagger.zhiyitech.cn/***/v2/api-docs',
       },
       '/bi-api-todo': {
         name: 'ai趋势',
-        url: 'http://swagger.zhiyitech.cn/fashion/v2/api-docs',
+        url: 'http://swagger.zhiyitech.cn/***/v2/api-docs',
       },
     };
     const getSwaggerUrl = url => {
